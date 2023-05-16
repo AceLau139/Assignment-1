@@ -26,3 +26,4 @@ if(nameValidation.value == account[0].Account){
 }
 
 }
+/**/
