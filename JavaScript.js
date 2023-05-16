@@ -4,13 +4,13 @@ const result = document.getElementById("result")
 const form = document.getElementById("form")
 
 const account = [
-    {ac : "Tommy"},
-    {pw : 123}
+    {Account : "Tommy"},
+    {Password : 123}
 ]
 function myFunction(){
-if(nameValidation.value == account[0].ac){
-    if(passwordValidation.value == account[1].pw){
-        result.innerHTML = "hello, " + account[0].ac;
+if(nameValidation.value == account[0].Account){
+    if(passwordValidation.value == account[1].Password){
+        result.innerHTML = "hello, " + account[0].Account;
         result.classList.toggle("hilight");
 
         form.style.backgroundColor = "skyblue"
